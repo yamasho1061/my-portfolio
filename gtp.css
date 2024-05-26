@@ -1,0 +1,58 @@
+/* Reset default browser styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background-color: #4caf50;
+  color: white;
+  text-align: left;
+  padding: 5% 1%;
+  font-size: 2em;
+}
+
+.main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.my-profile h1,
+.main h1 {
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 0.5em;
+  color: #4caf50;
+}
+
+.my-profile,
+.main div {
+  margin-bottom: 1.5em;
+}
+
+.my-profile {
+  font-size: 1.1em;
+}
+
+.my-profile br,
+.main br {
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 1em;
+  }
+}

@@ -1,0 +1,60 @@
+:root {
+  --main-color: #4ca8af;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background-color: var(--main-color);
+  color: white;
+  text-align: left;
+  padding: 0.5em 1em;
+  font-size: 2em;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  max-width: 80%;
+  margin: 0.5em 0;
+  padding: 1em 2em;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.content li {
+  list-style: none;
+}
+
+.section-title {
+  color: var(--main-color);
+  border-left: var(--main-color) solid 10px;
+  font-size: 36px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+/*.my-profile h1, */
+.main h1 {
+  /*border-bottom: 2px solid var(--main-color);*/
+  padding-bottom: 0.5em;
+  color: var(--main-color);
+}
+
+.my-profile,
+@media (max-width: 600px) {
+  .main {
+    padding: 1em;
+  }
+}
