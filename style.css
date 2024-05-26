@@ -54,5 +54,19 @@ body {
 
 .self-intro {
   display: flex;
-  margin: 50px 0px 50px 200px;
+  justify-content: space-between;
+  margin: 50px 50px;
+}
+
+.my-picture {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.univ-picture {
+  width: 60cap;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
 }
