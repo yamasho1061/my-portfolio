@@ -115,6 +115,8 @@ const wrong_answer = function () {
 
 const correct_answer = function () {
   quiza.textContent = "◯正解！";
+  qe.textContent =
+    "正解はバンテリンドームです。2021年に名前がナゴヤドームからバンテリンドームに変わりました。でも最寄りの地下鉄駅の名前は「ナゴヤドーム前 矢田」駅のままです。PayPayドームは福岡ソフトバンクホークス、ベルーナドームは埼玉西武ライオンズの本拠地です。";
 };
 
 const choose_music = function (music_list) {
