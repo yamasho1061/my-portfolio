@@ -52,9 +52,7 @@ body {
   color: var(--main-color);
 }
 
-.my-profile,
-@media (max-width: 600px) {
-  .main {
-    padding: 1em;
-  }
+.self-intro {
+  display: flex;
+  margin: 50px 0px 50px 200px;
 }
