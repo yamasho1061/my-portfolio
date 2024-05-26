@@ -25,7 +25,6 @@ body {
 }
 
 .content {
-  max-width: 80%;
   margin: 0.5em 0;
   padding: 1em 2em;
   background-color: white;
@@ -36,11 +35,14 @@ body {
   list-style: none;
 }
 
+.profiles {
+  line-height: 3em;
+}
 .section-title {
   color: var(--main-color);
   border-left: var(--main-color) solid 10px;
   font-size: 36px;
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
   padding-left: 0.5em;
 }
@@ -59,14 +61,63 @@ body {
 }
 
 .my-picture {
-  width: 200px;
+  width: 250px;
   height: 300px;
   object-fit: cover;
 }
 
+.img-box {
+  text-align: center;
+  margin: 1em;
+}
 .univ-picture {
-  width: 60cap;
-  height: 300px;
+  width: 80%;
+  height: 20em;
   object-fit: cover;
   margin: auto;
+}
+
+.dome-picture {
+  width: 80%;
+  object-fit: cover;
+}
+
+.quiz-buttons {
+  display: flex;
+  text-align: center;
+}
+
+.quiz-button {
+  margin: 0.5em 0.5em;
+  padding: 0.2em 0.5em;
+  color: white;
+  background-color: #3d868b;
+}
+
+.frip-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frip-picture {
+  width: 80%;
+  object-fit: cover;
+}
+
+.img-box-2 {
+  text-align: center;
+  width: 50%;
+  margin: 1em;
+}
+
+.text {
+  width: 50%;
+}
+
+.footer {
+  background-color: var(--main-color);
+  color: white;
+  text-align: left;
+  padding: 2em 2em;
+  font-size: 2em;
 }

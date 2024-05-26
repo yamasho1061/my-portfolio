@@ -42,11 +42,13 @@
             >名古屋大学情報学部・大学院情報学研究科</a
           >
         </p>
-        <img
-          src="https://portraits.niad.ac.jp/univ/outline/images/0260_0001_%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9%E3%81%AE%E5%A4%96%E8%A6%B31.jpg"
-          alt="大学の写真"
-          class="univ-picture"
-        />
+        <div class="img-box">
+          <img
+            src="https://portraits.niad.ac.jp/univ/outline/images/0260_0001_%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9%E3%81%AE%E5%A4%96%E8%A6%B31.jpg"
+            alt="大学の写真"
+            class="univ-picture"
+          />
+        </div>
       </div>
       <div class="my-univ"></div>
 
@@ -54,26 +56,68 @@
       <div class="content">
         <h1>野球</h1>
         <p>
-          小中高大と約13年間野球をやってきました！中日ドラゴンズファンです！
+          小中高大と約13年間野球をやってきました！ポジションはファーストでした。<br />
+          今は野球を観るのが好きです。中日ドラゴンズファンです！
         </p>
-        <div class="dome-picture">
+        <div class="img-box">
           <img
             src="https://www.aichi-now.jp/upload/spot_images/a30283247e8ecc419908776e1797d210.jpg"
             alt="ドームの写真"
+            class="dome-picture"
           />
+        </div>
+        <div class="quiz">
+          <h2>QUIZ</h2>
+          <p>上の画像は中日ドラゴンズの本拠地です。この球場の今の名前は？</p>
+          <div class="quiz-buttons">
+            <button class="quiz-button" id="qb1">ナゴヤドーム</button>
+            <button class="quiz-button" id="qb2">バンテリンドーム</button>
+            <button class="quiz-button" id="qb3">PayPayドーム</button>
+            <button class="quiz-button" id="qb4">ベルーナドーム</button>
+          </div>
+          <div class="quiz-answer"><h2 id="qa"></h2></div>
+          <div class="quiz-explanation" id="qe"></div>
         </div>
       </div>
       <div class="content">
         <h1>音楽鑑賞</h1>
-        <p>fripSideというユニットにはまっています！</p>
-        <div class="frip-picture">
-          <img
-            src="https://www.billboard-japan.com/scale/news/00000128/128154/800x_image.jpg"
-            alt="fripSideの写真"
-          />
+        <div class="frip-intro">
+          <div class="text">
+            <p>
+              fripSideというユニットにはまっています！ <br />
+              fripSideはボーカルの上杉真央、阿部寿世、プロデューサー兼シンセサイザーの八木沼悟志の男女3人組ユニットです。<br />
+              2002年に結成されたユニットで、何度かボーカリストが交代しており、今のボーカリストは3代目になります。
+            </p>
+          </div>
+          <div class="img-box-2">
+            <img
+              src="https://www.billboard-japan.com/scale/news/00000128/128154/800x_image.jpg"
+              alt="fripSideの写真"
+              class="frip-picture"
+            />
+          </div>
+        </div>
+        <div class="music-intro">
+          <h2>おすすめ曲紹介</h2>
+          <p>当てはまるものを選んでください↓</p>
+          <div class="quiz-buttons">
+            <button class="quiz-button" id="m1">アニソンが好き</button>
+            <button class="quiz-button" id="m2">疾走感のある曲が好き</button>
+            <button class="quiz-button" id="m3">哀愁感のある曲が好き</button>
+            <button class="quiz-button" id="m4">切ない曲が好き</button>
+          </div>
+          <div class="display music">
+            <div id="osusume_text"></div>
+
+            <h2 id="osusume_title"></h2>
+            <div id="frip_phase"></div>
+            <a id="osusume_url" target="_blank"></a>
+            <div id="kokokarakikemasu"></div>
+          </div>
         </div>
       </div>
     </div>
     <script src="main.js"></script>
+    <div class="footer"></div>
   </body>
 </html>
